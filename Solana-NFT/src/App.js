@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useMoralisSolanaApi, useMoralisSolanaCall } from "react-moralis";
+import { useMoralisSolanaApi } from "react-moralis";
 import "./App.css";
 import bg from "./bg.png";
 import logo from "./logo.png";
