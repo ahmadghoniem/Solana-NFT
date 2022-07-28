@@ -50,7 +50,7 @@ const App = () => {
             type="text"
             onChange={(e) => setAddress(e.target.value)}
           ></input>
-          <div className="search" onClick={() => NFTsearch(address)}>Get NFTs</div>
+          <div className="search" onClick={() => NFTsearch(address)}> NFT</div>
           {image && <img src={image} alt="nft" />}
           {name && <div className="name">{name}</div>}
         </div>
