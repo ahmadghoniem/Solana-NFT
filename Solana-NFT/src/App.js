@@ -7,13 +7,9 @@ import moralis from "./moralis.png";
 
 
 const { account } = useMoralisSolanaApi();
-
-// get mainnet SOL balance for the current user
 const { fetch, data, isLoading } = useMoralisSolanaCall(account.balance);
-
-// get devnet SOL balance for a given address
 const options = {
-  network: "mainnet",
+  network: "devnet",
   address: "89N3PDyZzakoH7W6n8ZrjGDDktjh8iWFG6eKRvi3kvpQ",
 };
 const { fetch, data, isLoading } = useMoralisSolanaCall(
