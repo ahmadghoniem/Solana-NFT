@@ -6,18 +6,6 @@ import logo from "./logo.png";
 import moralis from "./moralis.png";
 
 
-const { account } = useMoralisSolanaApi();
-const { fetch, data, isLoading } = useMoralisSolanaCall(account.balance);
-const options = {
-  network: "devnet",
-  address: "89N3PDyZzakoH7W6n8ZrjGDDktjh8iWFG6eKRvi3kvpQ",
-};
-const { fetch, data, isLoading } = useMoralisSolanaCall(
-  account.balance,
-  options
-);
-
-
 const App = () => {
   const [address, setAddress] = useState();
   const [name, setName] = useState();
