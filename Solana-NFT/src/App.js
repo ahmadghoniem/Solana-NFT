@@ -35,10 +35,6 @@ const App = () => {
 
   return (
     <>
-    <head>
-     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
-    </head>
       <div
         style={{
           backgroundImage: `url(${bg})`,
